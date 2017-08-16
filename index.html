@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/material.min.js" charset="utf-8"></script>
+    <script src="js/custom.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class=" mdl-layout mdl-js-layout">
+      <main class="mdl-layout__content">
+        <div class="mdl-grid mdl-grid--no-spacing ">
+          <div class="calc-layout mdl-cell mdl-card calculator-card ">
+          <div class="demo-updates mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--10-col-desktop ">
+            <div class="display mdl-card__title mdl-card--expand  mdl-color--teal-300">
+              <h2 id="main-display" class="text-right">0</h2>
+              <h2 id="sub-display" class="text-right">&nbsp;</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border bg-num">
+              <!-- Start row 1 -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 ">
+                    <button id="seven" data="7" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">7</button>
+                    <button id="eight" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">8</button>
+                    <button id="nine" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">9</button>
+                  </div>
+                  <div class="col-md-4 red">
+                    <button id="bksp" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">←⸺</button>
+                    <button id="c" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">C</button>
+                  </div>
+                </div>
+                <!-- end row 1 -->
+                <div class="spacer"></div>
+                <!-- Start row 2 -->
+                <div class="row">
+                  <div class="col-md-8 ">
+                    <button id="four" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">4</button>
+                    <button id="five" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">5</button>
+                    <button id="six" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">6</button>
+                  </div>
+                  <div class="col-md-4">
+                    <button id="add" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">+</button>
+                    <button id="sub" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">-</button>
+                  </div>
+                </div>
+                <!-- end row 2 -->
+                <div class="spacer"></div>
+                <!-- Start row 3 -->
+                <div class="row">
+                  <div class="col-md-8 ">
+                    <button id="one" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">1</button>
+                    <button id="two" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">2</button>
+                    <button id="three" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">3</button>
+                  </div>
+                  <div class="col-md-4 ">
+                    <button id="mul" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">*</button>
+                    <button id="div" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">/</button>
+                  </div>
+                </div>
+                <!-- end row 3 -->
+                 <div class="spacer"></div>
+                <!-- Start row 4 -->
+                <div class="row">
+                  <div class="col-md-8 ">
+                    <button id="dot" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">.</button>
+                    <button id="zero" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">0</button>
+                    <button id="eq" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">=</button>
+                  </div>
+                  <div class="col-md-4 ">
+
+                  </div>
+                </div>
+                <!-- end row 4 -->
+              </div>
+
+          </div>
+          <div class="footer-cal">
+              <p><b>Hint:</b> You can use keyboard keys to control Calculator</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

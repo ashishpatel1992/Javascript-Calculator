@@ -1,0 +1,48 @@
+.calculator-card{
+  margin:0 auto;
+  top:50px;
+  left:25%;
+  width:500px;
+}
+.text-right{
+  float: right;
+  width:100%;
+}
+.well{
+  background:grey;
+}
+.row{
+
+}
+.bg-num{
+  background:;
+}
+.calc-layout{
+
+}
+
+.mdl-button{
+  padding:0 8px;
+  min-width:64px;
+}
+.spacer{
+height:5px;
+}
+.display{
+  display:flex;
+  flex-direction: column-reverse;
+  padding:5px 10px;
+}
+#sub-display{
+  font-size: 12px;
+  line-height: 2em;
+}
+#sub-display,#main-display{
+  margin:0px;
+}
+#main-display{
+/*  height:48px;*/
+}
+.footer-cal{
+  margin-left:20px;
+}
